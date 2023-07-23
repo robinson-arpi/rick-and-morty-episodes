@@ -1,0 +1,53 @@
+body {
+    background-color: #070A18;
+}
+.custom-border {
+    border: 2px solid #8BCF21;
+    background-color: #070A18;
+    color: #fff;
+}
+
+.card {
+    background-color: #070A18;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Transiciones para suavizar el efecto */
+    background-color: transparent;
+}
+
+nav{
+    background-color: #070A18;
+}
+.navbar-brand{
+    flex-wrap: nowrap;
+}
+
+.display-container{
+    display: flex !important;
+    justify-content: space-between !important;
+
+}
+
+nav img {
+    width: 30vw;   /* Ancho deseado de la imagen */
+}
+
+.card:hover {
+    border: 2px solid #8BCF21; /* Mantenemos el color original del borde */
+    box-shadow: 0 0 10px rgb(139, 207, 33); /* Agregamos una sombra para simular el brillo */
+    transition: box-shadow 0.3s ease; /* Agregamos una transición para suavizar el efecto */
+    transform: translateY(-5px) scale(1.02);
+    background-color: rgba(66, 180, 202, 0.2);
+}
+.card:hover .card-header {
+    font-weight: bold;
+}
+.page-link {
+    border: 2px solid rgb(139, 207, 33);
+    background-color: rgba(139, 207, 33, 0.2);
+    color: white;
+}
+
+.page-link:hover {
+    background-color: rgba(139, 207, 33, 0.6);
+    color: white;
+    font-weight: bold;
+}
